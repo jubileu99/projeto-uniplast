@@ -1,0 +1,70 @@
+._main{
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+._title p{
+    font-family: Rubik mono one,sans-serif;
+    font-size: 25px;
+}
+.body{
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+}
+.box{
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	width: 350px;
+	height: 300px;
+
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.box h2{
+	font-family: 'Anton', serif;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+.box2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 280px;
+	height: 250px;
+}
+.produtos{
+    height: auto;
+    width: 100%;
+    background-color: #1ABC9C;
+    margin-bottom: 50px;
+}
+.caixafoto img{
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 5px solid grey;
+}
+.caixadetalhes{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.caixadetalhes p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.caixadetalhes span{
+    font-size: 18px;
+    font-weight: bold;
+}
